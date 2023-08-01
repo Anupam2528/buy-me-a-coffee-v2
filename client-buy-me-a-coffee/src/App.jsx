@@ -41,7 +41,7 @@ function App() {
         console.log(contract);
         setState({ provider, signer, contract });
       } catch (error) {
-        alert(error);
+        alert("Please install Metamask wallet to continue...");
       }
     };
 
